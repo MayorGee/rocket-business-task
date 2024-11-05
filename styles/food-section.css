@@ -1,0 +1,5 @@
+.food-section {
+    display: flex;
+    gap: 19px;
+    flex-wrap: wrap;
+}

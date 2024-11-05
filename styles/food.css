@@ -1,0 +1,67 @@
+.food {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 387px;
+    height: 154px;
+    border-radius: 5px;
+    padding: 12px;
+    background: green;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.food__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food__price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+
+.food__btn {
+    width: 142px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(24, 197, 118, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.food__icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.food_gorox {
+    height: 328px;
+    background-image: url('../images/gorox-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.food_golubika {
+    background-image: url('../images/golubika-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.food_morkov {
+    background-image: url('../images/morkov-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+

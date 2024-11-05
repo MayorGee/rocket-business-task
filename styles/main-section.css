@@ -1,0 +1,23 @@
+.main-section {
+    background-image: url('../images/main-section-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    height: 517px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section__btn {
+    width: 193px;
+    height: 33px;
+    border: none;
+    transform: skewX(-20deg);
+    background: rgba(24, 197, 118, 1);
+    color: rgba(255, 255, 255, 1);
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+}
