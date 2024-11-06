@@ -2,4 +2,6 @@
     display: flex;
     gap: 19px;
     flex-wrap: wrap;
+    background: rgba(242, 242, 242, 1);
+    ;
 }

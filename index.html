@@ -30,17 +30,26 @@
         rel="stylesheet" 
         type="text/css"
     />
+    <link 
+        href="styles/snack.css"
+        rel="stylesheet" 
+        type="text/css"
+    />
 </head>
 <body>
     <div class="page-container">
         <section class="section main-section">
             <button class="main-section__btn">
-                Смотреть видео <i>arrow icon</i>
+                Смотреть видео 
+                <img 
+                    src="icons/play.svg"
+                    class="main-section__btn-icon"
+                />
             </button>
         </section>
 
         <section class="section food-section">
-            <div class="food food_gorox">
+            <div class="food food-gorox">
                 <div class="food__header">
                     <p class="food__title">Горох в стручках, 1кг</p>
                     <div class="food__icons">
@@ -51,8 +60,8 @@
 
                 <div class="food__footer">
                     <div class="food__footer-left">
-                        <p class="food__discount">-29%</p>
-                        <p class="food__category">Товар дня</p>
+                        <p class="food__discount food-gorox__discount">-29%</p>
+                        <p class="food__category food-gorox__category">Товар дня</p>
                     </div>
 
                     <div class="food__footer-right">
@@ -62,76 +71,83 @@
                 </div>
             </div>
 
-            <div class="food food_golubika">
-                <div class="food__header">
-                    <p class="food__title">Голубика лесная, 200 г</p>
-                    <div class="food__icons">
-                        <img src="icons/love-icon.png" />
-                        <img src="icons/eye-icon.png" />
+            <div class="food-smaller-container">
+                <div class="food food-golubika">
+                    <div class="food__header">
+                        <p class="food__title">Голубика лесная, 200 г</p>
+                        <div class="food__icons">
+                            <img src="icons/love-icon.png" />
+                            <img src="icons/eye-icon.png" />
+                        </div>
+                    </div>
+    
+                    <div class="food__footer">
+                        <div class="food__footer-left">
+                            <p class="food__discount food-golubika__discount">-31%</p>
+                            <p class="food__category food-golubika__category">Распродажа</p>
+                        </div>
+    
+                        <div class="food__footer-right">
+                            <span class="food__price">140 ₽</span>
+                            <button class="food__btn">Оставить заявку</button>
+                        </div>
                     </div>
                 </div>
-
-                <div class="food__footer">
-                    <div class="food__footer-left">
-                        <p class="food__discount">-31%</p>
-                        <p class="food__category">Распродажа</p>
+    
+                <div class="food food-morkov">
+                    <div class="food__header">
+                        <p class="food__title">Морковь мытая, 1 кг</p>
+                        <div class="food__icons">
+                            <img src="icons/love-icon.png" />
+                            <img src="icons/eye-icon.png" />
+                        </div>
                     </div>
-
-                    <div class="food__footer-right">
-                        <span class="food__price">140 ₽</span>
-                        <button class="food__btn">Оставить заявку</button>
+    
+                    <div class="food__footer">
+                        <p class="food__category food-morkov__category">Хит</p>
+    
+                        <div class="food__footer-right">
+                            <span class="food__price">140 ₽</span>
+                            <button class="food__btn">Оставить заявку</button>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="food food_morkov">
-                <div class="food__header">
-                    <p class="food__title">Морковь мытая, 1 кг</p>
-                    <div class="food__icons">
-                        <img src="icons/love-icon.png" />
-                        <img src="icons/eye-icon.png" />
+            <div class="snack snack-popcorn">
+                <div class="snack__img">
+                    <div class="snack__header">
+                        <div class="snack__header-left">
+                            <p class="snack__category snack-popcorn__category">Товар дня</p>
+                            <p class="snack__discount snack-popcorn__discount">-29%</p>
+                        </div>
+                        <div class="snack__icons">
+                            <img src="icons/love-icon.png" />
+                            <img src="icons/eye-icon.png" />
+                        </div>
                     </div>
                 </div>
-
-                <div class="food__footer">
-                    <p class="food__category">Хит</p>
-
-                    <div class="food__footer-right">
-                        <span class="food__price">140 ₽</span>
-                        <button class="food__btn">Оставить заявку</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="snack">
-                <div class="snack__header">
-                    <div class="snack__header-left">
-                        <p class="snack__category">Товар дня</p>
-                        <p class="snack__discount">-29%</p>
-                    </div>
-                    <div class="snack__icons">
-                        <img src="icons/love-icon.png" />
-                        <img src="icons/eye-icon.png" />
-                    </div>
-                </div>
-                <p class="snack__ description">
+                
+                <p class="snack__description">
                     Попкорн солёный,для СВЧ-печи, 120 г
                 </p>
                 <p class="snack__price">160 ₽</p>
                 <button class="snack__btn">Оставить заявку</button>
             </div>
 
-            <div class="snack">
-                <div class="snack__header">
-                    <div class="snack__header-left">
-                        <p class="snack__category">Хит</p>
-                    </div>
-                    <div class="snack__icons">
-                        <img src="icons/love-icon.png" />
-                        <img src="icons/eye-icon.png" />
+            <div class="snack snack-eskimo">
+                <div class="snack__img">
+                    <div class="snack__header">
+                        <div class="snack__header-left">
+                            <p class="snack__category snack-eskimo__category">Хит</p>
+                        </div>
+                        <div class="snack__icons">
+                            <img src="icons/love-icon.png" />
+                            <img src="icons/eye-icon.png" />
+                        </div>
                     </div>
                 </div>
-                <p class="snack__ description">
+                <p class="snack__description">
                     Эскимо с малиной,150 г                
                 </p>
                 <p class="snack__price">190 ₽</p>
