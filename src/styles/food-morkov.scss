@@ -1,0 +1,9 @@
+.food-morkov {
+    background-image: url('../images/morkov-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+    &__category {
+        background: rgba(172, 89, 241, 1);
+    }
+}

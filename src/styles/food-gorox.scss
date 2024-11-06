@@ -1,0 +1,14 @@
+.food-gorox {
+    height: 328px !important;
+    background-image: url('../images/gorox-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+
+    &__discount {
+        background: rgba(24, 197, 118, 1);  
+    }
+    
+    &__category {
+        background: rgba(255, 91, 198, 1);
+    }
+}

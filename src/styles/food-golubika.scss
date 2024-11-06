@@ -1,0 +1,13 @@
+.food-golubika {
+    background-image: url('../images/golubika-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+
+    &__discount {
+        background: rgba(255, 91, 198, 1);
+    }
+    
+    &__category {
+        background: rgba(57, 176, 244, 1);
+    }
+}
